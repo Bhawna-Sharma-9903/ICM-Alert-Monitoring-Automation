@@ -14,17 +14,25 @@ Designed to reduce manual monitoring fatigue, minimize missed alerts, and improv
 📂 Project Structure
 ICM-Monitor-Automation/
 │
+
 ├── src/
+
 │   └── ICM-Monitor.ps1        # Main PowerShell automation script
 │
+
 ├── docs/
-│   ├── README.md              # Project documentation
+
+│   ├── README.md            # Project documentation
+
 │   └── screenshots/           # Screenshots or demo GIFs
+
 │
 ├── sounds/                    # Example alert sound files (placeholders)
+
 │   ├── RowIncrease.wav
 │   └── Unacknowledged.wav
 │
+
 ├── .gitignore
 └── LICENSE
 
@@ -62,7 +70,9 @@ Step 3. Press Enter to start monitoring.
 <img width="1718" height="818" alt="image" src="https://github.com/user-attachments/assets/0cda8a23-45f1-4d01-9ca2-7b7d9df173c6" />
 
 The script will refresh periodically, track incidents, and play sounds if:
+
 New rows are detected.
+
 An Unacknowledged alert is found.
 <img width="1479" height="439" alt="image" src="https://github.com/user-attachments/assets/40505e1a-535e-42a6-93c9-61e619c104a9" />
 
